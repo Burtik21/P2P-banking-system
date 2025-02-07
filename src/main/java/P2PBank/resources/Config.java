@@ -1,17 +1,22 @@
-package P2PBank.config;
+package P2PBank.resources;
 
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 public class Config {
     private static final Properties properties = new Properties();
 
     static {
-        try (FileInputStream input = new FileInputStream("src/main/resources/config.properties")) {
+        try (InputStream input = Config.class.getClassLoader().getResourceAsStream("config.properties")) {
+            if (input == null) {
+                throw new IOException("Nelze najít config.properties, Ujisti se, že je ve složce src/main/resources/");
+            }
             properties.load(input);
+            System.out.println("Konfigurace úspěšně načtena");
         } catch (IOException e) {
-            System.err.println("❌ Chyba při načítání konfigurace: " + e.getMessage());
+            System.err.println("Chyba při načítání konfigurace: " + e.getMessage());
+            System.exit(1);
         }
     }
 
@@ -20,10 +25,18 @@ public class Config {
     }
 
     public static int getInt(String key) {
-        return Integer.parseInt(properties.getProperty(key));
+        String value = get(key);
+        if (value == null) {
+            throw new NumberFormatException("❌ Chybí hodnota pro klíč: " + key);
+        }
+        return Integer.parseInt(value);
     }
 
     public static long getLong(String key) {
-        return Long.parseLong(properties.getProperty(key));
+        String value = get(key);
+        if (value == null) {
+            throw new NumberFormatException("❌ Chybí hodnota pro klíč: " + key);
+        }
+        return Long.parseLong(value);
     }
 }

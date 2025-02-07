@@ -1,6 +1,7 @@
 package P2PBank.commands;
 
-import P2PBank.server.BankDatabase;
+import P2PBank.database.DatabaseManager;
+import P2PBank.network.BankProxy;
 
 public class AWCommand extends Command {
     @Override
@@ -8,12 +9,22 @@ public class AWCommand extends Command {
         if (args.length < 3) return "ER Chybí parametry.";
 
         try {
-            int accountNumber = Integer.parseInt(args[1].split("/")[0]);
+            String[] accountParts = args[1].split("/");
+            if (accountParts.length != 2) return "ER Formát čísla účtu není správný.";
+
+            int accountNumber = Integer.parseInt(accountParts[0]);
+            String bankIp = accountParts[1];
             long amount = Long.parseLong(args[2]);
 
             if (amount < 0) return "ER Částka musí být kladná.";
 
-            if (BankDatabase.withdraw(accountNumber, amount)) {
+            // ✅ Pokud je IP jiná než lokální, přesměrujeme přes proxy
+            if (!bankIp.equals(DatabaseManager.getLocalIpAddress())) {
+                return BankProxy.forwardCommand(bankIp, String.join(" ", args));
+            }
+
+            // ✅ Jinak provedeme výběr lokálně
+            if (DatabaseManager.withdraw(accountNumber, bankIp, amount)) {
                 return "AW";
             } else {
                 return "ER Není dostatek finančních prostředků nebo účet neexistuje.";

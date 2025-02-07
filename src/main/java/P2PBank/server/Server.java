@@ -1,54 +1,73 @@
 package P2PBank.server;
 
 import java.io.IOException;
+import java.net.InetAddress;
+import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import P2PBank.utils.LoggerManager;
+
 
 public class Server {
     private final ExecutorService executor;
     private final Thread serverThread;
-    private final HashMap<String, Handler> dispatched = new HashMap<>();
+    private ServerSocket serverSocket;
+    private volatile boolean running = true; // Pro bezpečné vypnutí serveru
 
     public Server(int poolSize, int port) {
         executor = Executors.newFixedThreadPool(poolSize);
-        serverThread = new Thread(() -> new Listener(this, port).listen());
-        serverThread.setName("server");
+
+        serverThread = new Thread(() -> {
+            try {
+                serverSocket = new ServerSocket(port);
+                String localIp = InetAddress.getLocalHost().getHostAddress();
+                System.out.println("Server spuštěn na IP: " + localIp + " na portu: " + port);
+                LoggerManager.info("Server spuštěn na IP: " + localIp + " na portu: " + port);
+
+                while (running) {
+                    try {
+                        Socket socket = serverSocket.accept();
+                        if (!running) break; // Pokud je vypnutý, ukončí cyklus
+
+                        LoggerManager.info("Nové spojení: " + socket.getRemoteSocketAddress());
+                        Handler handler = new Handler(socket);
+                        executor.execute(handler);
+
+                    } catch (IOException e) {
+                        if (running) {
+
+                            LoggerManager.error("Chyba při přijímání spojení",e);
+                        }
+                    }
+                }
+
+            } catch (IOException e) {
+                LoggerManager.error("Chyba při spuštění serveru",e);
+            } finally {
+                stopServer();
+            }
+        });
+
+        serverThread.setName("Server-Thread");
         serverThread.start();
-        System.out.println("Server spuštěn na portu " + port);
     }
 
-    public void handle(Socket clientSocket) {
+    public void stopServer() {
+        running = false; // Zastaví hlavní smyčku přijímání klientů
+
         try {
-            Handler h = new Handler(clientSocket);
-            executor.execute(h);
-            dispatched.put(h.getName(), h);
-            System.out.println("Připojen nový klient: " + h.getName());
+            if (serverSocket != null && !serverSocket.isClosed()) {
+                serverSocket.close(); // Zavře server socket
+            }
         } catch (IOException e) {
-            System.err.println("Chyba při zpracování klienta: " + e.getMessage());
+            LoggerManager.error("Chyba při zavírání serverSocket",e);
         }
-    }
 
-    public void shutdownExecutor() {
-        executor.shutdownNow();
-        System.out.println("Server zastaven.");
-    }
-
-    public HashMap<String, Handler> getHandlers() {
-        return dispatched;
-    }
-
-    public void releaseHandler(String name) {
-        dispatched.remove(name);
-        System.out.println("Klient " + name + " odpojen.");
-    }
-
-    public Thread getServerThread() {
-        return serverThread;
-    }
-
-    public static void main(String[] args) {
-        new Server(10, 65525); // 10 vláken, port 65525
+        executor.shutdownNow(); // Okamžitě zastaví všechny běžící thready
+        //dispatched.clear(); // Vyprázdní mapu klientů
+        LoggerManager.info("Server ukončen");
     }
 }

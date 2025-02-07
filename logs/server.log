@@ -1,0 +1,283 @@
+[2025-02-07 19:34:22] [INFO] JDBC driver načten.
+[2025-02-07 19:34:23] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 19:34:42] [INFO] Nové spojení: /192.168.0.134:58558
+[2025-02-07 19:34:42] [INFO] Nové spojení od: /192.168.0.134:58558
+[2025-02-07 19:34:49] [INFO] Přijatý příkaz: sd
+[2025-02-07 19:34:49] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:34:50] [INFO] Přijatý příkaz: ac
+[2025-02-07 19:34:50] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 19:34:50] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 19:34:50] [INFO] Účet vytvořen: 41028/192.168.0.134
+[2025-02-07 19:34:50] [INFO] Odpověď odeslána: AC 41028/192.168.0.134
+[2025-02-07 19:35:00] [ERROR] Klient se odpojil nebo nastala chyba: Read timed out - Read timed out
+[2025-02-07 19:35:00] [INFO] Klient /192.168.0.134:58558 spojení ukončil.
+[2025-02-07 19:38:38] [INFO] JDBC driver načten.
+[2025-02-07 19:38:39] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 19:39:00] [INFO] Nové spojení: /192.168.0.134:59234
+[2025-02-07 19:39:00] [INFO] Nové spojení od: /192.168.0.134:59234
+[2025-02-07 19:39:04] [INFO] Přijatý příkaz: dwe
+[2025-02-07 19:39:04] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:05] [INFO] Přijatý příkaz: fdweew
+[2025-02-07 19:39:05] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:06] [INFO] Přijatý příkaz: dwe
+[2025-02-07 19:39:06] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:06] [INFO] Přijatý příkaz: dwe
+[2025-02-07 19:39:06] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:07] [INFO] Přijatý příkaz: dwe
+[2025-02-07 19:39:07] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:07] [INFO] Přijatý příkaz: w
+[2025-02-07 19:39:07] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:08] [INFO] Přijatý příkaz: dwe
+[2025-02-07 19:39:08] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:08] [INFO] Přijatý příkaz: wdw
+[2025-02-07 19:39:08] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:09] [INFO] Přijatý příkaz: dwd
+[2025-02-07 19:39:09] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:09] [INFO] Přijatý příkaz: wdwd
+[2025-02-07 19:39:09] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:39:19] [ERROR] Klient se odpojil nebo nastala chyba: Read timed out - Read timed out
+[2025-02-07 19:39:19] [INFO] Klient /192.168.0.134:59234 spojení ukončil.
+[2025-02-07 19:40:36] [INFO] JDBC driver načten.
+[2025-02-07 19:40:36] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 19:40:59] [INFO] Nové spojení: /192.168.0.134:59547
+[2025-02-07 19:40:59] [INFO] Nové spojení od: /192.168.0.134:59547
+[2025-02-07 19:41:01] [INFO] Přijatý příkaz: grs
+[2025-02-07 19:41:01] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 19:41:03] [INFO] Klient /192.168.0.134:59547 spojení ukončil.
+[2025-02-07 20:05:40] [INFO] JDBC driver načten.
+[2025-02-07 20:05:41] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 20:05:59] [INFO] Nové spojení: /192.168.0.134:51207
+[2025-02-07 20:05:59] [INFO] Nové spojení od: /192.168.0.134:51207
+[2025-02-07 20:06:06] [INFO] Přijatý příkaz: csd
+[2025-02-07 20:06:06] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 20:06:07] [INFO] Přijatý příkaz: a
+[2025-02-07 20:06:07] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 20:06:08] [INFO] Přijatý příkaz: xa
+[2025-02-07 20:06:08] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 20:06:08] [INFO] Přijatý příkaz: xa
+[2025-02-07 20:06:08] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 20:06:08] [INFO] Přijatý příkaz: ax
+[2025-02-07 20:06:08] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 20:06:08] [INFO] Přijatý příkaz: axa
+[2025-02-07 20:06:08] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 20:06:09] [INFO] Přijatý příkaz: xaxa
+[2025-02-07 20:06:09] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 20:06:09] [INFO] Přijatý příkaz: xax
+[2025-02-07 20:06:09] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 20:06:12] [INFO] Klient /192.168.0.134:51207 spojení ukončil.
+[2025-02-07 20:17:51] [INFO] Spouštím P2P Banking System...
+[2025-02-07 20:17:51] [INFO] Načítám konfiguraci...
+[2025-02-07 20:17:51] [INFO] Banka: Bank
+[2025-02-07 20:17:51] [INFO] Port: 65525
+[2025-02-07 20:17:51] [INFO] Testuji připojení k databázi...
+[2025-02-07 20:17:51] [INFO] JDBC driver načten.
+[2025-02-07 20:17:51] [INFO] Připojení k databázi OK!
+[2025-02-07 20:17:51] [INFO] Spouštím server...
+[2025-02-07 20:17:51] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 20:27:55] [INFO] Spouštím P2P Banking System...
+[2025-02-07 20:27:55] [INFO] Načítám konfiguraci...
+[2025-02-07 20:27:55] [INFO] Banka: Bank
+[2025-02-07 20:27:55] [INFO] Port: 65525
+[2025-02-07 20:27:55] [INFO] Testuji připojení k databázi...
+[2025-02-07 20:27:55] [INFO] JDBC driver načten.
+[2025-02-07 20:27:56] [INFO] Připojení k databázi OK!
+[2025-02-07 20:27:56] [INFO] Spouštím server...
+[2025-02-07 20:27:56] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 20:28:04] [INFO] Nové spojení: /192.168.0.134:54480
+[2025-02-07 20:28:04] [INFO] Nové spojení od: /192.168.0.134:54480
+[2025-02-07 20:28:09] [INFO] Přijatý příkaz: BN
+[2025-02-07 20:28:09] [INFO] Počet klientů v bance: 8
+[2025-02-07 20:28:09] [INFO] Odpověď odeslána: BN 8
+[2025-02-07 20:28:19] [ERROR] Klient se odpojil nebo nastala chyba: Read timed out - Read timed out
+[2025-02-07 20:28:19] [INFO] Klient /192.168.0.134:54480 spojení ukončil.
+[2025-02-07 20:28:37] [INFO] Spouštím P2P Banking System...
+[2025-02-07 20:28:37] [INFO] Načítám konfiguraci...
+[2025-02-07 20:28:37] [INFO] Banka: Bank
+[2025-02-07 20:28:37] [INFO] Port: 65525
+[2025-02-07 20:28:37] [INFO] Testuji připojení k databázi...
+[2025-02-07 20:28:37] [INFO] JDBC driver načten.
+[2025-02-07 20:28:37] [INFO] Připojení k databázi OK!
+[2025-02-07 20:28:37] [INFO] Spouštím server...
+[2025-02-07 20:28:37] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 20:29:15] [INFO] Nové spojení: /192.168.0.134:54678
+[2025-02-07 20:29:15] [INFO] Nové spojení od: /192.168.0.134:54678
+[2025-02-07 20:29:31] [INFO] Přijatý příkaz: ad 45615/192.168.0.120 500
+[2025-02-07 20:29:31] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 20:29:31] [INFO] Proxy: IP adresa 192.168.0.120 není v cache, skenuji síť...
+[2025-02-07 20:29:31] [INFO] Klient /192.168.0.134:54678 spojení ukončil.
+[2025-02-07 20:30:26] [INFO] Spouštím P2P Banking System...
+[2025-02-07 20:30:26] [INFO] Načítám konfiguraci...
+[2025-02-07 20:30:26] [INFO] Banka: Bank
+[2025-02-07 20:30:26] [INFO] Port: 65525
+[2025-02-07 20:30:26] [INFO] Testuji připojení k databázi...
+[2025-02-07 20:30:26] [INFO] JDBC driver načten.
+[2025-02-07 20:30:27] [INFO] Připojení k databázi OK!
+[2025-02-07 20:30:27] [INFO] Spouštím server...
+[2025-02-07 20:30:27] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 20:30:32] [INFO] Nové spojení: /192.168.0.134:54880
+[2025-02-07 20:30:32] [INFO] Nové spojení od: /192.168.0.134:54880
+[2025-02-07 20:30:43] [INFO] Přijatý příkaz: ad 15642/192.168.0.47 1000
+[2025-02-07 20:30:43] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 20:30:43] [INFO] Proxy: IP adresa 192.168.0.47 není v cache, skenuji síť...
+[2025-02-07 20:30:43] [INFO] Skenuji síť: 192.168.0.0/24... Timeout: 20000 ms
+[2025-02-07 20:31:24] [INFO] Skenování dokončeno. Nalezené banky: [192.168.0.1, 192.168.0.105, 192.168.0.110, 192.168.0.119, 192.168.0.134, 192.168.0.146, 192.168.0.153, 192.168.0.154, 192.168.0.155, 192.168.0.164, 192.168.0.166]
+[2025-02-07 20:31:24] [WARN] Proxy: Banka s IP 192.168.0.47 nebyla nalezena v síti.
+[2025-02-07 20:31:45] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65525
+[2025-02-07 20:32:06] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65526
+[2025-02-07 20:32:27] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65527
+[2025-02-07 20:32:48] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65528
+[2025-02-07 20:33:09] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65529
+[2025-02-07 20:33:30] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65530
+[2025-02-07 20:33:51] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65531
+[2025-02-07 20:34:12] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65532
+[2025-02-07 20:34:33] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65533
+[2025-02-07 20:34:54] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65534
+[2025-02-07 20:35:15] [WARN] Proxy: Nepodařilo se připojit na 192.168.0.47:65535
+[2025-02-07 20:35:15] [INFO] Odpověď odeslána: ER Nepodařilo se připojit k bance 192.168.0.47
+[2025-02-07 20:35:55] [ERROR] Klient se odpojil nebo nastala chyba: Read timed out - Read timed out
+[2025-02-07 20:35:55] [INFO] Klient /192.168.0.134:54880 spojení ukončil.
+[2025-02-07 20:46:07] [INFO] Spouštím P2P Banking System...
+[2025-02-07 20:46:07] [INFO] Načítám konfiguraci...
+[2025-02-07 20:46:07] [INFO] Banka: Bank
+[2025-02-07 20:46:07] [INFO] Port: 65525
+[2025-02-07 20:46:07] [INFO] Testuji připojení k databázi...
+[2025-02-07 20:46:07] [INFO] JDBC driver načten.
+[2025-02-07 20:46:08] [INFO] Připojení k databázi OK!
+[2025-02-07 20:46:08] [INFO] Spouštím server...
+[2025-02-07 20:46:08] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 20:46:29] [INFO] Nové spojení: /192.168.0.134:57251
+[2025-02-07 20:46:29] [INFO] Nové spojení od: /192.168.0.134:57251
+[2025-02-07 20:46:32] [INFO] Přijatý příkaz: ac
+[2025-02-07 20:46:32] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 20:46:33] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 20:46:33] [INFO] Účet vytvořen: 80333/192.168.0.134
+[2025-02-07 20:46:33] [INFO] Odpověď odeslána: AC 80333/192.168.0.134
+[2025-02-07 20:46:34] [INFO] Přijatý příkaz: bn
+[2025-02-07 20:46:34] [INFO] Počet klientů v bance: 9
+[2025-02-07 20:46:34] [INFO] Odpověď odeslána: BN 9
+[2025-02-07 20:46:47] [INFO] Přijatý příkaz: ad 45612/192.168
+[2025-02-07 20:46:47] [INFO] Odpověď odeslána: ER Chybí parametry.
+[2025-02-07 20:46:58] [INFO] Přijatý příkaz: ad 4523/192.168.1.2 400
+[2025-02-07 20:46:58] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 20:46:58] [INFO] Proxy: IP adresa 192.168.1.2 není v cache, skenuji síť...
+[2025-02-07 20:46:58] [INFO] Skenuji síť: 192.168.1.0/24... Timeout: 20000 ms
+
+[2025-02-07 20:50:52] [INFO] Spouštím P2P Banking System...
+[2025-02-07 20:50:52] [INFO] Načítám konfiguraci...
+[2025-02-07 20:50:52] [INFO] Banka: Bank
+[2025-02-07 20:50:52] [INFO] Port: 65525
+[2025-02-07 20:50:52] [INFO] Testuji připojení k databázi...
+[2025-02-07 20:50:52] [INFO] JDBC driver načten.
+[2025-02-07 20:50:52] [INFO] Připojení k databázi OK!
+[2025-02-07 20:50:52] [INFO] Spouštím server...
+[2025-02-07 20:50:52] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 20:51:11] [INFO] Nové spojení: /192.168.0.134:57970
+[2025-02-07 20:51:11] [INFO] Nové spojení od: /192.168.0.134:57970
+[2025-02-07 20:51:11] [INFO] Přijatý příkaz: SSH-2.0-PuTTY_Release_0.82
+[2025-02-07 20:51:11] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 20:51:18] [INFO] Klient /192.168.0.134:57970 spojení ukončil.
+[2025-02-07 20:51:32] [INFO] Nové spojení: /192.168.0.134:58031
+[2025-02-07 20:51:32] [INFO] Nové spojení od: /192.168.0.134:58031
+[2025-02-07 20:51:34] [INFO] Přijatý příkaz: ac
+[2025-02-07 20:51:34] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 20:51:34] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 20:51:34] [INFO] Účet vytvořen: 90640/192.168.0.134
+[2025-02-07 20:51:34] [INFO] Odpověď odeslána: AC 90640/192.168.0.134
+[2025-02-07 20:51:44] [INFO] Nové spojení: /192.168.0.134:58063
+[2025-02-07 20:51:44] [INFO] Nové spojení od: /192.168.0.134:58063
+[2025-02-07 20:51:47] [INFO] Přijatý příkaz: bn
+[2025-02-07 20:51:47] [INFO] Počet klientů v bance: 10
+[2025-02-07 20:51:47] [INFO] Odpověď odeslána: BN 10
+[2025-02-07 20:51:48] [INFO] Přijatý příkaz: bn
+[2025-02-07 20:51:49] [INFO] Počet klientů v bance: 10
+[2025-02-07 20:51:49] [INFO] Odpověď odeslána: BN 10
+[2025-02-07 20:51:59] [INFO] Přijatý příkaz: ad 25415/192.168.0.1 500
+[2025-02-07 20:51:59] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 20:51:59] [INFO] Proxy: Přesměrovávám příkaz [ad 25415/192.168.0.1 500] na 192.168.0.1
+[2025-02-07 20:51:59] [INFO] Proxy: IP adresa 192.168.0.1 není v cache, skenuji síť...
+[2025-02-07 20:51:59] [INFO] 🔍 Skenuji síť pro banky: 192.168.0.0/24
+[2025-02-07 20:51:59] [INFO] 🔍 Skenuji síť 192.168.0.0/24 s timeoutem 20000 ms.
+[2025-02-07 20:52:02] [INFO] Přijatý příkaz: bn
+[2025-02-07 20:52:02] [INFO] Počet klientů v bance: 10
+[2025-02-07 20:52:02] [INFO] Odpověď odeslána: BN 10
+[2025-02-07 20:52:03] [INFO] Přijatý příkaz: bn
+[2025-02-07 20:52:03] [INFO] Počet klientů v bance: 10
+[2025-02-07 20:52:03] [INFO] Odpověď odeslána: BN 10
+[2025-02-07 20:52:09] [INFO] Nové spojení: /192.168.0.134:58141
+[2025-02-07 20:52:09] [INFO] Nové spojení od: /192.168.0.134:58141
+[2025-02-07 20:52:09] [INFO] Přijatý příkaz: BC
+[2025-02-07 20:52:09] [INFO] Odpověď odeslána: BC 192.168.0.134
+[2025-02-07 20:52:09] [INFO] ✅ Banka nalezena na 192.168.0.134:65525 s odpovědí: BC 192.168.0.134
+[2025-02-07 20:52:09] [INFO] Klient /192.168.0.134:58141 spojení ukončil.
+[2025-02-07 20:52:23] [INFO] Přijatý příkaz: ba
+[2025-02-07 20:52:23] [INFO] Celková suma na účtech v bance: 0
+[2025-02-07 20:52:23] [INFO] Odpověď odeslána: BA 0
+[2025-02-07 20:52:28] [INFO] Přijatý příkaz: ba
+[2025-02-07 20:52:28] [INFO] Celková suma na účtech v bance: 0
+[2025-02-07 20:52:28] [INFO] Odpověď odeslána: BA 0
+[2025-02-07 20:52:40] [INFO] ✅ Nalezené banky: [192.168.0.134]
+[2025-02-07 20:52:40] [WARN] ❌ Proxy: Banka s IP 192.168.0.1 nebyla nalezena.
+[2025-02-07 20:52:40] [WARN] ❌ Proxy: Banka s IP 192.168.0.1 nebyla nalezena v síti.
+[2025-02-07 20:52:40] [INFO] Odpověď odeslána: ER Banka nebyla nalezena v síti.
+[2025-02-07 20:53:08] [ERROR] Klient se odpojil nebo nastala chyba: Read timed out - Read timed out
+[2025-02-07 20:53:08] [INFO] Klient /192.168.0.134:58031 spojení ukončil.
+[2025-02-07 20:53:11] [INFO] Klient /192.168.0.134:58063 spojení ukončil.
+[2025-02-07 20:59:39] [INFO] Spouštím P2P Banking System...
+[2025-02-07 20:59:39] [INFO] Načítám konfiguraci...
+[2025-02-07 20:59:39] [INFO] Banka: Bank
+[2025-02-07 20:59:39] [INFO] Port: 65525
+[2025-02-07 20:59:39] [INFO] Testuji připojení k databázi...
+[2025-02-07 20:59:39] [INFO] JDBC driver načten.
+[2025-02-07 20:59:39] [INFO] Připojení k databázi OK!
+[2025-02-07 20:59:39] [INFO] Spouštím server...
+[2025-02-07 20:59:39] [INFO] Server spuštěn na IP: 192.168.0.134 na portu: 65525
+[2025-02-07 20:59:47] [INFO] Nové spojení: /192.168.0.134:59369
+[2025-02-07 20:59:47] [INFO] Nové spojení od: /192.168.0.134:59369
+[2025-02-07 20:59:50] [INFO] Přijatý příkaz: bn
+[2025-02-07 20:59:50] [INFO] Počet klientů v bance: 10
+[2025-02-07 20:59:50] [INFO] Odpověď odeslána: BN 10
+[2025-02-07 20:59:55] [INFO] Nové spojení: /192.168.0.134:59393
+[2025-02-07 20:59:55] [INFO] Nové spojení od: /192.168.0.134:59393
+[2025-02-07 21:00:08] [INFO] Přijatý příkaz: ad 15642/192.168.0.1 400
+[2025-02-07 21:00:08] [INFO] Získaná lokální IP adresa: 192.168.0.134
+[2025-02-07 21:00:08] [INFO] Proxy: Přesměrovávám příkaz [ad 15642/192.168.0.1 400] na 192.168.0.1
+[2025-02-07 21:00:08] [INFO] Proxy: IP adresa 192.168.0.1 není v cache, skenuji síť...
+[2025-02-07 21:00:08] [INFO] Skenuji síť pro banky: 192.168.0.0 - 192.168.0.255
+[2025-02-07 21:00:08] [INFO] Skenuji síť 192.168.0.0 - 192.168.0.255 s timeoutem 20000 ms.
+[2025-02-07 21:00:10] [INFO] Přijatý příkaz: bn
+[2025-02-07 21:00:10] [INFO] Počet klientů v bance: 10
+[2025-02-07 21:00:10] [INFO] Odpověď odeslána: BN 10
+[2025-02-07 21:00:11] [INFO] Přijatý příkaz: xas
+[2025-02-07 21:00:11] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 21:00:12] [INFO] Přijatý příkaz: xasxa
+[2025-02-07 21:00:12] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 21:00:12] [INFO] Přijatý příkaz: sxsax
+[2025-02-07 21:00:12] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 21:00:12] [INFO] Přijatý příkaz: xsa
+[2025-02-07 21:00:12] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 21:00:12] [INFO] Přijatý příkaz: as
+[2025-02-07 21:00:12] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 21:00:13] [INFO] Přijatý příkaz: axasx
+[2025-02-07 21:00:13] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 21:00:18] [INFO] Nové spojení: /192.168.0.134:59460
+[2025-02-07 21:00:18] [INFO] Nové spojení od: /192.168.0.134:59460
+[2025-02-07 21:00:18] [INFO] Přijatý příkaz: BC
+[2025-02-07 21:00:18] [INFO] Odpověď odeslána: BC 192.168.0.134
+[2025-02-07 21:00:18] [INFO] Banka nalezena na 192.168.0.134:65525 s odpovědí: BC 192.168.0.134
+[2025-02-07 21:00:18] [INFO] Klient /192.168.0.134:59460 spojení ukončil.
+[2025-02-07 21:00:32] [INFO] Přijatý příkaz: bc
+[2025-02-07 21:00:32] [INFO] Odpověď odeslána: BC 192.168.0.134
+[2025-02-07 21:00:56] [INFO] Nalezené banky: [192.168.0.134]
+[2025-02-07 21:00:56] [WARN] Proxy: Banka s IP 192.168.0.1 nebyla nalezena.
+[2025-02-07 21:00:56] [WARN] Proxy: Banka s IP 192.168.0.1 nebyla nalezena v síti.
+[2025-02-07 21:00:56] [INFO] Odpověď odeslána: ER Banka nebyla nalezena v síti.
+[2025-02-07 21:00:56] [INFO] Přijatý příkaz: bc
+[2025-02-07 21:00:56] [INFO] Odpověď odeslána: BC 192.168.0.134
+[2025-02-07 21:00:56] [INFO] Přijatý příkaz: bv
+[2025-02-07 21:00:56] [INFO] Odpověď odeslána: ER Neznámý příkaz.
+[2025-02-07 21:00:56] [INFO] Přijatý příkaz: bc
+[2025-02-07 21:00:56] [INFO] Odpověď odeslána: BC 192.168.0.134
+[2025-02-07 21:01:12] [ERROR] Klient se odpojil nebo nastala chyba: Read timed out - Read timed out
+[2025-02-07 21:01:12] [INFO] Klient /192.168.0.134:59369 spojení ukončil.
+[2025-02-07 21:01:36] [ERROR] Klient se odpojil nebo nastala chyba: Read timed out - Read timed out
+[2025-02-07 21:01:36] [INFO] Klient /192.168.0.134:59393 spojení ukončil.
